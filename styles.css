@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    background-color:#E6E3EE; 
+    padding: 1rem 5rem;
+    max-width: 448px;
+}
+input {
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+}
+.row-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+button {
+    width: 200px;
+    height: 40px;
+    background-color:#B7B7B7;
+    color: whitesmoke;
+    border: none;
+    font-weight: bolder;
+}
+strong {
+    text-decoration: underline;
+}
+.req {
+    color: red;
+}
+input:focus {
+    border:solid #6750A4 2px;
+}
+button:active {
+    background-color: #52B640;
+}
+@media only screen and (max-width: 200px) {
+    .row-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+}

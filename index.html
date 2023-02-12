@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>Sign up</h1>
+        <h4>It's quick and easy</h4>
+    </header>
+    <form action="" method="get">
+        <div class="form">
+            <div class="row">
+                <label for="first_name">
+                    <input
+                    type="text"
+                    name="first_name"
+                    id="first_name"
+                    placeholder="First name"
+                    required/>
+                </label><span class="req">*</span>
+            </div>
+            <div class="row">
+                <label for="last_name">
+                    <input
+                    type="text"
+                    name="last_name"
+                    id="last_name"
+                    placeholder="Last name"
+                    required/>
+                </label><span class="req">*</span>
+            </div>
+            <div class="row-wrap">
+                <div class="row">
+                    <label for="email">
+                        <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Email"
+                        required/>
+                    </label><span class="req">*</span>
+                </div>
+                <div class="row">
+                    <label for="phone">
+                        <input
+                        type="number"
+                        name="number"
+                        id="number"
+                        placeholder="Mobile number"
+                        required/>
+                    </label><span class="req">*</span>
+                </div>
+            </div>
+            <div class="row">
+                <label for="number">
+                    <input
+                    type="password"
+                    name="number"
+                    id="number"
+                    placeholder="New password"
+                    required/>
+                </label><span class="req">*</span>
+            </div>
+            <p>Birthday</p>            
+            <div class="row-wrap"> 
+                <div class="row">
+                    <label for="month">
+                        <select name="month" id="month" required>
+                            <option value="01">January</option>
+                            <option value="02">February</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="row">
+                    <label for="day">
+                        <select name="day" id="day" required>
+                            <option value="1">1</option>
+                            <option value="1">2</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="row">
+                    <label for="year">
+                        <select name="year" id="year" required>
+                            <option value="23">2023</option>
+                            <option value="22">2022</option>
+                        </select>
+                    </label><span class="req">*</span>
+                </div>
+            </div>
+            <p>Gender</p>
+            <div class="row">
+                <legend></legend>
+                <label><input type="radio" name="gender" id="male" value="male"/>Male</label>
+                <label><input type="radio" name="gender" id="female" value="female"/>Female</label>
+                <label><input type="radio" name="gender" id="other" value="other" checked/>Other</label>
+            </div>
+            <p>By clicking "Accept all cookies", 
+                you agree Micro Fluff can store <strong>cookies</strong> on your device
+                 and disclose information in accordance width
+                our <strong>Cookie Policy</strong>.
+            </p>
+            <button type="submit" class="sign_up">Sign up</button>
+        </div>
+    </form>
+</body>
+</html>
